@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#F2F4F7">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="←  My Orders" android:textColor="#FFFFFF" android:textStyle="bold"
+        android:textSize="18sp" android:background="#263238" android:padding="16dp" />
+    <ListView android:id="@+id/lvOrders" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:padding="8dp" />
+    <TextView android:id="@+id/tvEmpty" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:gravity="center" android:padding="40dp"
+        android:text="No orders yet" />
+</LinearLayout>
